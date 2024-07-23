@@ -1,0 +1,121 @@
+.another-course {
+    width: 100%;
+    display: flex;
+    background-color: #cfa80a;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-around;
+    padding-bottom: 100px;
+
+    h1 {
+        margin-top: 100px;
+        color: white;
+        font-size: 2em;
+    }
+
+}
+
+.another-course-image-container {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+
+    img {
+        width: 300px;
+        height: 300px;
+        border-top: 5px solid white;
+    }
+    .another-course-image-container-item {
+        background-color: #373A40;
+        color: white;
+        display: flex;
+        flex-direction: column;
+
+        div {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+.another-course-image-container-item {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+}
+
+.another-course-image-container-item {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-course {
+        flex-direction: column;
+        height: auto;
+        /* padding: 20px; */
+    }
+
+    .main-course img {
+        width: 100%;
+        height: auto;
+        border-radius: 10%;
+        border: 4px solid rgb(49, 49, 49);
+    }
+
+    .main-course-text {
+        padding: 10px;
+        background-color: #3a3a3a94;
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+    }
+
+    .menu-item-mobile {
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+
+        .img-item-kisaki {
+            width: 300px;
+            height: 300px;
+            border-top: none;
+        }
+        .another-course-image-container-item {
+            background-color: #373A40;
+            color: white;
+            display: flex;
+            flex-direction: column;
+
+            div {
+                font-size: 16px;
+                /* padding: 10px; */
+                display: flex;
+                flex-direction: column;
+                /* margin-bottom: 100px; */
+            }
+        }
+    }
+}

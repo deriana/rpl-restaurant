@@ -1,0 +1,87 @@
+.main-course {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../assets/makan.svg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    color: white;
+
+    img {
+        width: 35%;
+        height: auto;
+        border-radius: 10%;
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        -ms-border-radius: 10%;
+        -o-border-radius: 10%;
+        border: 6px solid rgb(49, 49, 49);
+    }
+}
+
+.main-course-text {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.main-course-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: default;
+    padding: 20px;
+    background-color: #3a3a3a94;
+    h1 {
+        font-size: 3.5em;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    h2 {
+        font-size: 2em;
+    }
+
+    h1:hover {
+        background-image: url(../assets/icon.jpeg);
+        background-size: cover;
+        transition: 0.5s;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
+
+/* Media query for mobile devices with a width of 768px */
+@media only screen and (max-width: 768px) {
+    .main-course {
+        flex-direction: column;
+        height: 70vh;
+        padding: 20px;
+    }
+
+    .main-course img {
+        width: 100%;
+        height: auto;
+        border-radius: 10%;
+        border: 4px solid rgb(49, 49, 49);
+    }
+
+    .main-course-text {
+        padding: 10px;
+        background-color: #3a3a3a94;
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+    }
+}

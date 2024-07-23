@@ -1,0 +1,27 @@
+[
+    {
+        "Name" : "Es Jelly Mangga",
+        "Image" : "mangga.jpeg",
+        "Border" : "mangga.jpeg",
+        "Harga" : "Rp. 5.000" 
+    },
+    {
+        "Name" : "Es Jelly Caffucino",
+        "Image" : "caffucino.jpeg",
+        "Border" : "caffucino.jpeg",
+        "Harga" : "Rp. 5.000" 
+    },
+
+    {
+        "Name" : "Es Jelly Coklat",
+        "Image" : "coklat.jpeg",
+        "Border" : "coklat.jpeg",
+        "Harga" : "Rp. 5.000" 
+    },
+    {
+        "Name" : "Es Jelly Lemon",
+        "Image" : "Lemon.jpeg",
+        "Border" : "lemon.jpeg",
+        "Harga" : "Rp. 5.000" 
+    }
+]
