@@ -49,14 +49,14 @@
         font-size: 2em;
     }
 
-    h1:hover {
+    /* h1:hover {
         background-image: url(../assets/icon.jpeg);
         background-size: cover;
         transition: 0.5s;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-    }
+    } */
 }
 
 /* Media query for mobile devices with a width of 768px */
