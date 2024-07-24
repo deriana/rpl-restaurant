@@ -4,6 +4,26 @@ header {
     background-color: #00a352;
 }
 
+.order {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        font-size: 1.4em;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: default;
+    font-size: 1.4em;
+}
+
 .logo-container {
     display: flex;
     flex-direction: row;

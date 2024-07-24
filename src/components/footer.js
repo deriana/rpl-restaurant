@@ -7,8 +7,10 @@ const Footer = () => {
       <div className="contact-container" id="contact">
         <ul>
           <li>Phone: +62 85220536728 ( Vina )</li>
-          <li>Phone: +62 87729041703 ( Hasbiawak )</li>
-          <li>Order Here !</li>
+          <l>Phone: +62 87729041703 ( Hasbiawak )</l>
+          <li>
+            <a href="https://forms.gle/1uXUxz4FDKm2hQmP8" target="blank">Order Here!</a>
+          </li>
         </ul>
       </div>
       <div className="profile-box">

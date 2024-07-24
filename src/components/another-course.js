@@ -26,7 +26,7 @@ const AnotherCourse = () => {
           <img src={Mochi} alt="kisaki" className="img-item-kisaki"></img>
           <div>
             <h1>Mochi</h1>
-            <h2>Rp. 2.000</h2>
+            <h2>Rp. 5.000 / 4pcs</h2>
           </div>
         </div>
         <div className="another-course-image-container-item">

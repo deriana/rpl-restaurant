@@ -28,12 +28,20 @@ function Header() {
         <div className="header-hero-text">
           <h1>New Menu</h1>
           <h1>Best Taste</h1>
+          <div className="location">
+          <i class="fa-solid fa-map-pin"></i>
+          <p>SMAKZIE | Kampus Satu | Stand RPL 1</p>
+          </div>
+          <a href="https://forms.gle/1uXUxz4FDKm2hQmP8" target="blank">
+          <button>Order Here! Via Google Form</button>          
+          </a>
           <button onClick={Contact}>Order Here!</button>
           {showContactInfo && (
-            <p>
+            <p className="order">
               Contact Information: <br />
               Phone: 085220536728 ( Vina ) <br />
               Phone: 87729041703 ( Hasbiawak )
+              <a href="https://forms.gle/1uXUxz4FDKm2hQmP8">Form Order</a>
             </p>
           )}
         </div>
