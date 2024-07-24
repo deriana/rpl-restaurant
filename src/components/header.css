@@ -140,7 +140,7 @@ a:hover {
 @media only screen and (max-width: 768px) {
   
     header {
-      height: 80vh; 
+      height: 100vh; 
     }
   
     /* Navigation */

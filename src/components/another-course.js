@@ -19,7 +19,7 @@ const AnotherCourse = () => {
           <img src={Pizza} alt="kisaki" className="img-item-kisaki"></img>
           <div>
             <h1>Pizza Mini</h1>
-            <h2>Rp. 3.000</h2>
+            <h2>Rp. 4.000</h2>
           </div>
         </div>
         <div className="another-course-image-container-item">
@@ -32,7 +32,7 @@ const AnotherCourse = () => {
         <div className="another-course-image-container-item">
           <img src={Makaroni} alt="kisaki" className="img-item-kisaki"></img>
           <div>
-            <h1>Makaroni</h1>
+            <h1>Skutel</h1>
             <h2>Rp. 4.000</h2>
           </div>
         </div>
@@ -47,7 +47,7 @@ const AnotherCourse = () => {
           <img src={Cireng} alt="kisaki" className="img-item-kisaki"></img>
           <div>
             <h1>Cireng</h1>
-            <h2>Rp. 4.000</h2>
+            <h2>Rp. 2.500</h2>
           </div>
         </div>
         <div className="another-course-image-container-item">
