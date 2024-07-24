@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="contact-container" id="contact">
         <ul>
           <li>Phone: +62 85220536728 ( Vina )</li>
-          <li>Phone: +62 81222678173 ( Hasbiawak )</li>
+          <li>Phone: +62 87729041703 ( Hasbiawak )</li>
           <li>Order Here !</li>
         </ul>
       </div>
