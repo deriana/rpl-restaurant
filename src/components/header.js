@@ -33,7 +33,7 @@ function Header() {
             <p>
               Contact Information: <br />
               Phone: 085220536728 ( Vina ) <br />
-              Phone: +87729041703 ( Hasbiawak )
+              Phone: 87729041703 ( Hasbiawak )
             </p>
           )}
         </div>
